@@ -1,7 +1,10 @@
 
+qt_add_resources(SOURCES resources.qrc)
+
 set(qadwaitadecorations_SRCS
     qadwaitadecorationsplugin.cpp
     qadwaitadecorations.cpp
+    ${SOURCES}
 )
 
 add_library(qadwaitadecorations MODULE ${qadwaitadecorations_SRCS})

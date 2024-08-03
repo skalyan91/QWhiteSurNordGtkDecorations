@@ -52,6 +52,7 @@ public:
     enum Button { None = 0x0, Close = 0x1, Minimize = 0x02, Maximize = 0x04 };
     Q_DECLARE_FLAGS(Buttons, Button);
     enum ButtonIcon { CloseIcon, MinimizeIcon, MaximizeIcon, RestoreIcon };
+    enum ButtonInteractionState {Normal, Hover, Pressed};
 
     QAdwaitaDecorations();
     virtual ~QAdwaitaDecorations() = default;
@@ -113,6 +114,7 @@ private:
     QPointF m_lastButtonClickPosition;
 
     QMap<ColorType, QColor> m_colors;
+    bool m_preferDark;
     std::unique_ptr<QFont> m_font;
     QPixmap m_shadowPixmap;
     QMap<ButtonIcon, QString> m_icons;
