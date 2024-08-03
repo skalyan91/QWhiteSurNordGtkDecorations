@@ -13,24 +13,18 @@
  *
  * You should have received a copy of the GNU Lesser General Public
  * License along with this library; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
  *
  */
 
-#ifndef QADWAITA_DECORATIONS_PLUGIN_H
-#define QADWAITA_DECORATIONS_PLUGIN_H
+#include "qwhitesurgtkdecorationsplugin.h"
+#include "qwhitesurgtkdecorations.h"
 
-#include <QtWaylandClient/private/qwaylanddecorationplugin_p.h>
-
-using namespace QtWaylandClient;
-
-class QAdwaitaDecorationsPlugin : public QWaylandDecorationPlugin
+QWaylandAbstractDecoration *QAdwaitaDecorationsPlugin::create(const QString &system,
+                                                              const QStringList &paramList)
 {
-    Q_OBJECT
-    Q_PLUGIN_METADATA(IID QWaylandDecorationFactoryInterface_iid FILE "qadwaitadecorations.json")
-public:
-    QWaylandAbstractDecoration *create(const QString &system,
-                                       const QStringList &paramList) override;
-};
-
-#endif // QADWAITA_DECORATIONS_PLUGIN_H
+    Q_UNUSED(paramList)
+    if (system == "whitesur-gtk")
+        return new QAdwaitaDecorations();
+    return nullptr;
+}

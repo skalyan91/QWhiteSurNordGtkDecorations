@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(QAdwaitaDecorations
+project(QWhiteSurGtkDecorations
     VERSION 0.1.5
-    DESCRIPTION "Qt Wayland decoration plugin using libadwaita style"
+    DESCRIPTION "Qt Wayland decoration plugin using WhiteSur-gtk style"
     LANGUAGES CXX C)
 
 option(USE_QT6 "Use Qt6 instead of Qt5" OFF)

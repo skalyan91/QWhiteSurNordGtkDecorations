@@ -1,5 +1,9 @@
-# QAdwaitaDecorations
-Qt decoration plugin implementing Adwaita-like client-side decorations.
+# QWhiteSurGtkDecorations
+Qt decoration plugin implementing WhiteSurGTK-like client-side decorations.
+
+This project is modified based on the [QAdwaitaDecorations](https://github.com/FedoraQt/QAdwaitaDecorations) project.  
+
+Some of the icon resources used in this project come from [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme.git).
 
 ## How to compile
 This library uses private Qt headers and will likely not be forward nor
@@ -20,7 +24,7 @@ make && make install
 It can be used by setting the QT_WAYLAND_DECORATION environment variable:
 
 ```
-export QT_WAYLAND_DECORATION=adwaita
+export QT_WAYLAND_DECORATION=whitesur-gtk
 ```
 
 ## License
