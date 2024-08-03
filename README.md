@@ -20,6 +20,12 @@ cmake [OPTIONS] [-DUSE_QT6=true] [-HAS_QT6_SUPPORT] ..
 make && make install
 ```
 
+## For Archlinux users
+Archlinux users can install qwhitesurgtkdecorations with aur:
+```shell
+yay -S qwhitesurgtkdecorations-qt5 qwhitesurgtkdecorations-qt6
+```
+
 ## Usage
 It can be used by setting the QT_WAYLAND_DECORATION environment variable:
 
