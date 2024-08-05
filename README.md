@@ -5,6 +5,10 @@ This project is modified based on the [QAdwaitaDecorations](https://github.com/F
 
 Some of the icon resources used in this project come from [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme.git).
 
+## Screenshots
+After applying the plugin, the title bar of the Qt application looks like this:
+![effect](screenshots/effect.png)
+
 ## How to compile
 This library uses private Qt headers and will likely not be forward nor
 backward compatible. This library will have to be recompiled with every
