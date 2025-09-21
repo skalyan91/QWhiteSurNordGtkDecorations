@@ -3,40 +3,62 @@
    width="16"
    height="16"
    version="1.1"
-   id="svg1920"
+   id="svg12"
    sodipodi:docname="titlebutton-minimize-active.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1924" />
+     id="defs16" />
   <sodipodi:namedview
-     id="namedview1922"
+     id="namedview14"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:showpageshadow="2"
+     inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="14.75"
-     inkscape:cx="4.0338983"
+     inkscape:zoom="36.1875"
+     inkscape:cx="7.9861831"
      inkscape:cy="8"
      inkscape:window-width="1920"
-     inkscape:window-height="1012"
+     inkscape:window-height="1010"
      inkscape:window-x="0"
-     inkscape:window-y="35"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg1920" />
-  <path
-     d="M 8.0000435,15.000143 C 11.866036,15.000143 15,11.866176 15,8.0001301 15,4.1340843 11.865949,1.0000176 8.0000435,1.0000176 c -3.8659919,0 -7.0000434,3.1339667 -7.0000434,7.0001125 0,3.8659459 3.1340515,7.0000129 7.0000434,7.0000129"
-     fill="#caa124"
-     stroke-width="0.777968"
-     id="path1910"
-     style="fill-rule:evenodd" />
+     inkscape:current-layer="svg12" />
+  <g
+     transform="translate(-253,242.63782)"
+     style="display:inline"
+     id="titlebutton-minimize"
+     inkscape:label="#g1623">
+    <rect
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.474321;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="rect1565-18"
+       width="16"
+       height="16"
+       x="253"
+       y="-242.63782"
+       ry="1.6930764e-05" />
+    <g
+       inkscape:label="#g941"
+       transform="translate(254,-241.63782)"
+       id="titlebutton-minimize-1-7"
+       style="enable-background:new">
+      <g
+         transform="translate(-4.9999997,-1033.3622)"
+         id="g6-2-9">
+        <path
+           style="fill:#bca26f;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 12.000061,1047.3622 c 3.865929,0 6.999939,-3.134 6.999939,-7 0,-3.866 -3.13401,-7 -6.999939,-7 -3.8660427,0 -7.0000616,3.134 -7.0000616,7 0,3.866 3.1340189,7 7.0000616,7"
+           id="path2-37-2"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
   <rect
      x="3.9983404"
      y="6.9922314"
@@ -44,6 +66,6 @@
      height="1.999998"
      ry="0.99998015"
      opacity="0.5"
-     id="rect1916"
+     id="rect8"
      style="stroke-width:3.7795" />
 </svg>
