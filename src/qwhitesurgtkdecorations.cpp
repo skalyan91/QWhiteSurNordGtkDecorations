@@ -180,16 +180,16 @@ void QAdwaitaDecorations::updateColors(bool useDarkColors)
             << "Changing color scheme to " << (useDarkColors ? "dark" : "light");
 
     m_preferDark = useDarkColors;
-    m_colors = { { Background, useDarkColors ? QColor(0x303030) : QColor(0xffffff) },
-                 { BackgroundInactive, useDarkColors ? QColor(0x242424) : QColor(0xfafafa) },
-                 { Foreground, useDarkColors ? QColor(0xffffff) : QColor(0x2e2e2e) },
-                 { ForegroundInactive, useDarkColors ? QColor(0x919191) : QColor(0x949494) },
-                 { Border, useDarkColors ? QColor(0x3b3b3b) : QColor(0xdbdbdb) },
-                 { BorderInactive, useDarkColors ? QColor(0x303030) : QColor(0xdbdbdb) },
-                 { ButtonBackground, useDarkColors ? QColor(0x444444) : QColor(0xebebeb) },
-                 { ButtonBackgroundInactive, useDarkColors ? QColor(0x2e2e2e) : QColor(0xf0f0f0) },
-                 { HoveredButtonBackground, useDarkColors ? QColor(0x4f4f4f) : QColor(0xe0e0e0) },
-                 { PressedButtonBackground, useDarkColors ? QColor(0x6e6e6e) : QColor(0xc2c2c2) } };
+    m_colors = { { Background, useDarkColors ? QColor(0x2e3440) : QColor(0xfbfcfd) },
+                 { BackgroundInactive, useDarkColors ? QColor(0x242931) : QColor(0xf3f4f6) },
+                 { Foreground, useDarkColors ? QColor(0xd9dce3) : QColor(0x242424) },
+                 { ForegroundInactive, useDarkColors ? QColor(0x495265) : QColor(0x6a7792) },
+                 { Border, useDarkColors ? QColor(0x0e0f0f) : QColor(0xc3c7cf) },
+                 { BorderInactive, useDarkColors ? QColor(0x0d0f12) : QColor(0xcdd1da) },
+                 { ButtonBackground, useDarkColors ? QColor(0x4e5769) : QColor(0xf5f8fd) },
+                 { ButtonBackgroundInactive, useDarkColors ? QColor(0x292e38) : QColor(0xfaf9f8) },
+                 { HoveredButtonBackground, useDarkColors ? QColor(0x555f73) : QColor(0xeef3fd) },
+                 { PressedButtonBackground, useDarkColors ? QColor(0x626e85) : QColor(0xc3c7cf) } };
     forceRepaint();
 }
 
