@@ -180,8 +180,8 @@ void QAdwaitaDecorations::updateColors(bool useDarkColors)
             << "Changing color scheme to " << (useDarkColors ? "dark" : "light");
 
     m_preferDark = useDarkColors;
-    m_colors = { { Background, useDarkColors ? QColor(0x2e3440) : QColor(0xfbfcfd) },
-                 { BackgroundInactive, useDarkColors ? QColor(0x242931) : QColor(0xf3f4f6) },
+    m_colors = { { Background, useDarkColors ? QColor(0x2e3440) : QColor(0xe5e9f0) },
+                 { BackgroundInactive, useDarkColors ? QColor(0x242931) : QColor(0xd8dee9) },
                  { Foreground, useDarkColors ? QColor(0xd9dce3) : QColor(0x242424) },
                  { ForegroundInactive, useDarkColors ? QColor(0x495265) : QColor(0x6a7792) },
                  { Border, useDarkColors ? QColor(0x0e0f0f) : QColor(0xc3c7cf) },
